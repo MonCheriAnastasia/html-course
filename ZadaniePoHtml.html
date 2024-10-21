@@ -1,0 +1,179 @@
+<!--задание 1-->
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задачки по HTML</title>
+</head>
+<body>
+    <h1>HTML Теги для форматирования текста</h1>
+    <p>HTML предоставляет <strong>множество тегов</strong> для работы с текстом. Эти теги помогают <em>структурировать и стилизовать</em> контент.</p>
+    <HR>
+    <p>H<sup>2</sup>O</p><br>
+    <p>10<sup>2</sup></p>
+<hr>
+<!--задание 2-->
+<h2>Списки форматов текста</h2>
+    <ul>
+        <li><strong>Жирный текст</strong></li>
+        <li><i>Курсив</i></li>
+        <li><u>Подчеркнутый текст</u></li>
+        <li><strike>Зачеркнутый текст</strike></li>
+    </ul>
+    <ol>
+            <li><sup>Надстрочный текст</sup></li>
+            <li><sub>Подстрочный текст</sub></li>
+            <li><code>Моноширинный текст</code></li>
+    </ol>
+<!--Задание 3 ????-->
+<h3>Цитирование и предформатирование</h3>
+    <blockquote>"Учение без практики бесполезно, а практика без учения опасна." — Конфуций.</blockquote>
+    <pre> <code>html
+        Copy code
+        <html>
+        <body>
+        <h1>Пример HTML</h1>
+        </body>
+        </html> </code> </pre>
+    <hr>
+    <!--Задание 4-->
+    <h1>Изучаем атрибуты в HTML</h1>
+    <p>Наведи курсор на <span title="HTML — язык разметки"><u>текст</u></span>, чтобы увидеть подсказку</p>
+<!--Задание 5-->
+    <h2>Атрибуты ссылок</h2>
+    <a href="http://google.com">Сайт Google</a><br>
+    <a href="http://kinopoisk.ru" target="_blank">Сайт Кинопоиска</a><br>
+    <a href="#bottom">Перейти вниз страницы</a>
+    <a name="bottom"><h3>Bottom</h3></a>
+<!--Задание 6-->
+<h3>Атрибуты для работы с изображениями</h3>
+    <img src="example.jpg" alt="Описание изображения" width="300" height="200">
+    <hr>
+<!--Заание 7-->
+<h1>Работа с изображениями в HTML</h1>
+    <img src="image.jpg" alt="Пример изображения" width="300px"><br>
+<!--Задание 8-->
+    <img src="Images/img.png" width="400px">
+    <img src="Images/img.png" height="200px">
+<!--Задание 9-->
+<h4>Изображение как ссылка</h4>
+    <p>Посмотреть картинки с Мальдив</p>
+    <a href="https://www.google.by/search?sca_esv=adb9b9861ab1efe9&sxsrf=ADLYWIIISKzcYKD8jPIVTnxion1LzcsUXw:1729261560858&q=мальдивы&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J3ppPdoHI1O-XvbXbpNjYYwWUVH6qTfR1Lpek5F-7GS5kHUv-XPg6sWhVG4k1EjbnFPFiQi_bsfp3cxd_CTQhtTGbU7rJLEWmdN4a76OTEo5fFsdXIbBorOam49syBpKscTQDYk&sa=X&ved=2ahUKEwjT27uokZiJAxU6bPEDHajrNqYQtKgLegQIERAB&biw=1440&bih=824&dpr=2" target="_blank"><img src="Images/img.png" alt="Картинки с Мальдив" width="400px"></a>
+<br>
+    <!--Задание 10-->
+    <img src="Images/img_1.png" width="200px" alt="Статуя Зевса">
+    <img src="Images/img_2.png" width="200px" alt="Сады Семирамиды">
+    <img src="Images/img_3.png" width="200px" alt="Александрийский маяк">
+<hr>
+<!--Задание 11-->
+<h1>Создание таблиц в HTML</h1>
+    <table>
+        <thead>
+        <th>Имя</th>
+        <th>Возраст</th>
+        <th>Город</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Алексей
+            </td>
+            <td>25
+            </td>
+            <td>Москва
+            </td>
+        </tr>
+        <tr>
+            <td>Мария
+            </td>
+            <td>30
+            </td>
+            <td>Санкт-Петербург
+            </td>
+        </tr>
+        </tbody>
+    </table>
+<!--Задание 12-->
+    <table border="3">
+        <thead>
+        <th colspan="3">Товары в магазине</th>
+        </thead>
+    <tbody>
+    <tr>
+    <th>Название</th>
+    <th>Категория</th>
+    <th>Цена</th>
+    </tr>
+    <tr>
+        <th rowspan="2">Ноутбук</th>
+        <td>Электроника</td>
+        <td>50 000 р.</td>
+    </tr>
+    <tr>
+        <td>Аксессуары</td>
+        <td>5 000 р.</td>
+    </tr>
+    </tbody>
+    </table>
+    <br>
+<!--Задание 13-->
+<table border="1" cellpadding="10" cellspacing="5">
+    <thead>
+        <th>Продукт</th>
+        <th>Количество</th>
+        <th>Цена</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Яблоки</td>
+        <td>3 кг</td>
+        <td>200 руб.</td>
+    </tr>
+    <tr>
+        <td>Молоко</td>
+        <td>1 л</td>
+        <td>50 руб.</td>
+    </tr>
+    <tr>
+        <td>Хлеб</td>
+        <td>1 шт</td>
+        <td>30 руб.</td>
+    </tr>
+    </tbody>
+</table>
+<!--Задание 14-->
+<hr>
+<h1>Использование тега < div ></h1>
+<div><h2>Первый раздел</h2><p>Текст первого раздела.</p></div>
+    <div><h2>Второй раздел</h2><p>Текст второго раздела.</p></div>
+    <div><h2>Третий раздел</h2><p>Текст третьего раздела.</p></div>
+<!--Задание 15-->
+    <div>
+        <h1>Вложенные Div</h1>
+<div>
+    <h3>Раздел 1</h3>
+    <p>Текст в первом вложенном разделе.</p></div>
+        <div>
+            <h3>Раздел 2</h3>
+            <p>Текст во втором вложенном разделе.</p>
+        </div>
+</div>
+    <!--Задание 16-->
+    <p>Это обычный текст с выделенным словом <span>важное</span>.</p>
+<!--Задание 17-->
+<div>
+    <p>Тег Div – это <span>блоковый элемент</span>, который обычно занимает всю ширину экрана.</p>
+   <p>Тег Span – это <span>строчный элемент</span>, который занимает только столько места, сколько нужно для его содержимого.</p>
+</div>
+<!--Задание 18-->
+<div>
+    <h1>Статья о HTML элементах</h1>
+    <p>В HTML есть два типа элементов — <span>блоковые и строчные</span></p>
+    <p>Тег Div - пример блокового элемента, который используется для создания крупных элементов на странице.</p>
+    <p>Тег Span - пример строчного элемента, который используется для выделения текста внутри абзаца.</p>
+</div>
+<div>
+    <h2>Заключение</h2>
+    <p>Понимание разницы между блоковыми и строчными элементами помогает создавать четко структурированные веб-страницы.</p>
+</div>
+</body>
+</html>
